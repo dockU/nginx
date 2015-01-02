@@ -7,4 +7,3 @@ RUN pacman -Syu nginx --needed --noconfirm
 
 ADD nginx.conf /etc/nginx/nginx.conf
 ADD run /service/nginx/run
-ADD logging.conf /etc/rsyslog.d/nginx.conf
